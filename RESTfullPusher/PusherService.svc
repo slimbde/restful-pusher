@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost Language="C#" 
+    Debug="true" 
+    Service="RESTfullPusher.PusherService" 
+    CodeBehind="PusherService.svc.cs"
+    Factory="Ninject.Extensions.Wcf.NinjectServiceHostFactory"
+     %>
